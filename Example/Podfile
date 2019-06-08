@@ -1,3 +1,6 @@
+source 'git@talkcheap.xiaoeknow.com:ios/XEBaseUI.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
 target 'PodDemo_Example' do

@@ -14,7 +14,7 @@
   },
   "source_files": "PodDemo/**/*.{swift,h}",
   "dependencies": {
-    "XEShareSDK": [
+    "XEBaseUI": [
 
     ]
   },
