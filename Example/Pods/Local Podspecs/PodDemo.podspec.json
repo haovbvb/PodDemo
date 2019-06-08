@@ -1,0 +1,22 @@
+{
+  "name": "PodDemo",
+  "version": "0.1.0",
+  "summary": "A short description of PodDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/haovbvb/PodDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "haovbvb": "pagehuang@xiaoe-tech.com"
+  },
+  "source": {
+    "git": "https://github.com/haovbvb/PodDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodDemo/**/*"
+}

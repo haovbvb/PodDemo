@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'PodDemo_Example' do
+#  pod 'PodDemo', :path => '../' # 指定路径
+  pod 'PodDemo', :path => '../PodDemo.podspec'  # 指定podspec文件
+
+  target 'PodDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
