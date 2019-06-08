@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/haovbvb/PodDemo.git', :tag => s.version.to_s }
 
     s.source_files = "#{s.name}/**/*.{swift,h}"
+    s.dependency "XEShareSDK"
 
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'page' => 'pagehuang@xiaoe-tech.com' }

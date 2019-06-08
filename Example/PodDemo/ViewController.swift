@@ -16,7 +16,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let _ = view.width
         
-        testPod.lLoveYanZi()
         
         testPod.test2()
         

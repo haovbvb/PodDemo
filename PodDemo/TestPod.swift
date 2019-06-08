@@ -8,17 +8,17 @@
 import Foundation
 
 public class testPod {
-    public static func lLoveYanZi() {
-        print("Yes, I very love yanzi")
-    }
     
     public static func test() {
-        print("Yes, I very love yanzi")
-        print("Yes, I very love yanzi")
+        print("Yes, I am printing test ")
+        print("Yes, I am printing test")
     }
     
     public static func test2() {
-        print("Yes, I very love yanzi")
-        print("Yes, I very love yanzi")
+        print("Yes, I am printing test2 ")
+    }
+    
+    public static func test3() {
+        print("Yes, I am printing test3")
     }
 }

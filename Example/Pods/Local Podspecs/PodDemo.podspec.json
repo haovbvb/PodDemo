@@ -13,6 +13,11 @@
     "tag": "0.1.1"
   },
   "source_files": "PodDemo/**/*.{swift,h}",
+  "dependencies": {
+    "XEShareSDK": [
+
+    ]
+  },
   "license": {
     "type": "MIT",
     "file": "LICENSE"
