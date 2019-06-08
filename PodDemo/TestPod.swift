@@ -14,5 +14,11 @@ public class testPod {
     
     public static func test() {
         print("Yes, I very love yanzi")
+        print("Yes, I very love yanzi")
+    }
+    
+    public static func test2() {
+        print("Yes, I very love yanzi")
+        print("Yes, I very love yanzi")
     }
 }

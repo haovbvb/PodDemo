@@ -1,22 +1,24 @@
 {
   "name": "PodDemo",
-  "version": "0.1.0",
-  "summary": "A short description of PodDemo.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "PodDemo.",
   "homepage": "https://github.com/haovbvb/PodDemo",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "swift_versions": "5.0.0",
+  "source": {
+    "git": "https://github.com/haovbvb/PodDemo.git",
+    "tag": "0.1.1"
+  },
+  "source_files": "PodDemo/**/*.{swift,h}",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "haovbvb": "pagehuang@xiaoe-tech.com"
+    "page": "pagehuang@xiaoe-tech.com"
   },
-  "source": {
-    "git": "https://github.com/haovbvb/PodDemo.git",
-    "tag": "0.1.0"
-  },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "PodDemo/**/*"
+  "swift_version": "5.0.0"
 }

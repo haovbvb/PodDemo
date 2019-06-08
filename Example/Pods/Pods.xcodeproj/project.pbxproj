@@ -440,38 +440,6 @@
 			};
 			name = Debug;
 		};
-		3D66E98A127508AC9FB0C8DA8260469D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 579E25017AB17BE3C047266982C919BE /* PodDemo.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PodDemo/PodDemo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PodDemo/PodDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PodDemo/PodDemo.modulemap";
-				PRODUCT_MODULE_NAME = PodDemo;
-				PRODUCT_NAME = PodDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		424961B875440FB2A33952AD4F2B6EDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E65C741C8D68DFE96D1201C61BB645E2 /* Pods-PodDemo_Example.release.xcconfig */;
@@ -540,6 +508,37 @@
 			};
 			name = Release;
 		};
+		7D9970581EF047694F8400BA85F0ED66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579E25017AB17BE3C047266982C919BE /* PodDemo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PodDemo/PodDemo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PodDemo/PodDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PodDemo/PodDemo.modulemap";
+				PRODUCT_MODULE_NAME = PodDemo;
+				PRODUCT_NAME = PodDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -604,7 +603,7 @@
 			};
 			name = Debug;
 		};
-		ACD4C9FB9764D33D0C9789051C0CEDCE /* Debug */ = {
+		C1F8DEF9785965FA380CD222FA9ACFD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 579E25017AB17BE3C047266982C919BE /* PodDemo.xcconfig */;
 			buildSettings = {
@@ -620,7 +619,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PodDemo/PodDemo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PodDemo/PodDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PodDemo/PodDemo.modulemap";
 				PRODUCT_MODULE_NAME = PodDemo;
@@ -628,12 +627,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		C842FAAC01F8E17A836CA9C21E99F7CB /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -761,8 +761,8 @@
 		B7BA46C0E09E57A371991A6DD2D2A573 /* Build configuration list for PBXNativeTarget "PodDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ACD4C9FB9764D33D0C9789051C0CEDCE /* Debug */,
-				3D66E98A127508AC9FB0C8DA8260469D /* Release */,
+				7D9970581EF047694F8400BA85F0ED66 /* Debug */,
+				C1F8DEF9785965FA380CD222FA9ACFD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

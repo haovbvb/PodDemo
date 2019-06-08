@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         testPod.lLoveYanZi()
         
+        testPod.test2()
         
         
     }

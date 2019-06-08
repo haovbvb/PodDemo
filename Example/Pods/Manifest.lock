@@ -1,5 +1,5 @@
 PODS:
-  - PodDemo (0.1.0)
+  - PodDemo (0.1.1)
 
 DEPENDENCIES:
   - PodDemo (from `../PodDemo.podspec`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../PodDemo.podspec"
 
 SPEC CHECKSUMS:
-  PodDemo: 5886a59c3e2c358a77981ed0a495e72708e47232
+  PodDemo: 1e4bc1e5ae16cf722e6f026bd35fb83ad2eaba14
 
 PODFILE CHECKSUM: 9a5bfa0aeee7ceb4916ab99d22baf797bd72c7a2
 
